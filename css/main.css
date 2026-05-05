@@ -127,14 +127,14 @@ body {
     opacity: 1;
 }
 
-/* Логотип в меню */
+/* логотип */
 .logo-menu {
     width: 350px;
     margin-bottom: 40px;
     border-radius: 15px;
 }
 
-/* Список меню */
+/* список  в меню */
 .menu-list {
     list-style-type: none;
     padding: 0;
@@ -158,7 +158,7 @@ body {
     color: var(--pink-dark);
 }
 
-/* Соцсети в меню */
+/*соцсети в меню */
 .menu-socials {
     margin-top: 40px;
     display: flex;
@@ -175,7 +175,7 @@ body {
     color: #2b1a30;
 }
 
-/*  HERO  */
+/*HERO*/
 .hero {
     height: 100vh;
     min-height: 600px;
@@ -237,7 +237,7 @@ body {
     box-shadow: 0 6px 25px rgba(229, 158, 255, 0.5);
 }
 
-/*  СЕКЦИИ  */
+/*секции*/
 section {
     padding: 80px 0;
 }
@@ -250,7 +250,7 @@ section {
     font-weight: 700;
 }
 
-/*  О МАСТЕРЕ  */
+/*о  мастере */
 .about {
     background: var(--white);
 }
@@ -287,7 +287,7 @@ section {
     box-shadow: 0 10px 40px rgba(229, 158, 255, 0.3);
 }
 
-/*  УСЛУГИ  */
+/*  услуги  */
 .services__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -338,7 +338,7 @@ section {
     color: #2b1a30;
 }
 
-/*  ПОЧЕМУ ВЫБИРАЮТ  */
+/* поч выбир  */
 .features {
     background: var(--white);
 }
@@ -363,7 +363,7 @@ section {
     color: #555;
 }
 
-/*  УЮТНОЕ ПРОСТРАНСТВО  */
+/* пространство */
 .space__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -371,11 +371,11 @@ section {
     align-items: start;
 }
 
-/* СЛАЙДЕР  */
+/* слыйды  */
 .space-slider {
     overflow: hidden;
     font-size: 0;
-    padding-top: 0зч;
+    padding-top: 10px;
     transform: rotate(180deg);
     position: relative;
     text-align: center;
@@ -473,12 +473,12 @@ section {
     border-radius: 5px 0 0 5px;
 }
 
-/* Скрываем левую стрелку у активных */
+/* скрываем левстрелку у активных */
 .space-slider > a:target ~ a::before {
     display: none;
 }
 
-/* По умолчанию показываем последний слайд */
+/* по умолчанию показ последний слайд */
 .space-slider > a:not(:target) ~ div:last-child {
     display: inline;
 }
@@ -499,7 +499,7 @@ section {
     display: inline !important;
 }
 
-/* Контент слайда */
+/* Контент */
 .space-slider > div > div {
     font-size: 15px;
     position: relative;
@@ -569,7 +569,7 @@ section {
     }
 }
 
-/*  КОНТАКТЫ  */
+/*  контвкты*/
 .bg {
     background: linear-gradient(135deg, var(--yellow), var(--white));
     padding: 60px 0;
@@ -625,7 +625,7 @@ section {
     border-radius: 10px;
 }
 
-/*  ФОРМА ЗАПИСИ  */
+/*форма */
 .booking {
     background: var(--white);
 }
@@ -755,7 +755,7 @@ section {
     }
 }
 
-/*  ПРАЙС-ЛИСТ (КАРТОЧКИ)  */
+/*  ПРАЙС*/
 .price-page {
     padding: 100px 0 80px;
 }
@@ -775,7 +775,7 @@ section {
     margin-bottom: 50px;
 }
 
-/* Сетка карточек */
+/* Сетка */
 .price-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
@@ -786,7 +786,7 @@ section {
 /* Карточка */
 .price-card {
     position: relative;
-    background-size: 0;                /* По умолчанию картинка скрыта */
+    background-size: 0;              
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -799,14 +799,14 @@ section {
     box-shadow: 0 3px 15px rgba(0,0,0,0.06);
 }
 
-/* При наведении — показываем фоновую картинку */
+/*фон картинка */
 .price-card:hover {
     background-size: cover;
     box-shadow: 0 8px 30px rgba(0,0,0,0.15);
     transform: translateY(-3px);
 }
 
-/* Контент карточки */
+/* Контент*/
 .price-card__content {
     position: relative;
     z-index: 2;
@@ -820,7 +820,7 @@ section {
     height: 100%;
 }
 
-/* При наведении — делаем фон полупрозрачным, чтобы видеть картинку */
+/* полупрозрачный фон */
 .price-card:hover .price-card__content {
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
@@ -841,7 +841,7 @@ section {
     max-width: 280px;
 }
 
-/* Цена */
+/* цена */
 .price-card__price {
     font-size: 22px;
     font-weight: 700;
@@ -851,7 +851,7 @@ section {
     flex-shrink: 0;
 }
 
-/* Примечание */
+/* комент */
 .price-note {
     text-align: center;
     margin-top: 30px;
@@ -868,7 +868,7 @@ section {
     padding: 16px 50px;
 }
 
-/* ========== АДАПТИВ ========== */
+/*  АДАПТИВ  */
 @media (max-width: 768px) {
     .price-cards {
         grid-template-columns: 1fr;
@@ -890,7 +890,7 @@ section {
     }
 }
 
-/* ========== ПОРТФОЛИО — ВЕРТИКАЛЬНЫЙ СЛАЙДЕР ========== */
+/* вертик слайдер  */
 .portfolio-slider {
     position: relative;
     overflow: hidden;
@@ -948,7 +948,7 @@ section {
     background: #000;
 }
 
-/* Кнопки управления */
+/*  управление */
 .portfolio-buttons button {
     background-color: #fff;
     border: none;
@@ -983,7 +983,7 @@ section {
     border-bottom-right-radius: 5px;
 }
 
-/* ========== СЕТКА ФОТОГРАФИЙ В СЛАЙДЕ ========== */
+/*  СЕТКА ФОТОГРАФИЙ */
 .portfolio-grid-slide {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -994,7 +994,7 @@ section {
     background: #000;
 }
 
-/* Карточка фото */
+/* Карточка */
 .grid-item {
     position: relative;
     overflow: hidden;
@@ -1023,7 +1023,7 @@ section {
     pointer-events: none;
 }
 
-/* Название дизайна */
+/* назв диз */
 .grid-item b {
     position: absolute;
     bottom: 17%;
@@ -1037,7 +1037,7 @@ section {
     pointer-events: none;
 }
 
-/* Описание дизайна */
+/* описание диз */
 .grid-item em {
     position: absolute;
     bottom: 10%;
@@ -1054,7 +1054,7 @@ section {
 
 
 
-/* ========== HOVER-ЭФФЕКТЫ ========== */
+/*эффекты */
 .grid-item:hover img {
     transform: scale(1.08);
     filter: brightness(0.9);
@@ -1073,11 +1073,9 @@ section {
     opacity: 0.8;
 }
 
-.grid-item:hover::before {
-    opacity: 1;
-}
 
-/* ========== АДАПТИВ ========== */
+
+/*  АДАПТИВ  */
 @media (max-width: 768px) {
     .portfolio-left {
         width: 40%;
