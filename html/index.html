@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Nails — Маникюр на дому</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="lv" />
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <!-- Кнопка откр меню -->
+    <button class="nav-btn open-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Трёхслойн меню -->
+    <div class="nav nav-black">
+        <div class="nav nav-pink">
+            <div class="nav nav-white">
+                <button class="nav-btn close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <img src="/images/logo.png" alt="Kate Nails" class="logo logo-menu">
+
+                <ul class="menu-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="price.html">Прайс</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#booking">Запись</a></li>
+                </ul>
+
+                <!-- Соцсети-->
+                <div class="menu-socials">
+                    <a href="https://t.me/djanchik_nails" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://vk.com/" target="_blank"><i class="fab fa-vk"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  ОСНОВН КОНТЕНТ  -->
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1 class="hero-title">Маникюр на дому</h1>
+                <p class="hero-subtitle">Качество салона — уют вашего дома</p>
+                <a href="#booking" class="hero__btn">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- О мастере -->
+    <section id="home" class="about">
+        <div class="container about__grid">
+            <div class="about__image">
+                <img src="/images/k3.jpg" alt="Грушина Екатерина">
+            </div>
+            <div class="about__content">
+                <h1>О себе</h1>
+                <h2>Грушина Екатерина</h2>
+                <p class="about__subtitle">Мастер с 3-летним опытом. Делаю маникюр с заботой о ваших ногтях: стерильные инструменты, гипоаллергенные покрытия, бережная обработка. Уютная атмосфера и индивидуальный подход.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon"><img src="/images/spokr.jpg" alt=""></div>
+                    <h3>Маникюр с покрытием</h3>
+                    <p>Классический, аппаратный или комбинированный маникюр + стойкое покрытие гель-лаком</p>
+                    <a href="price.html" class="service-card__link">Подробнее →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon"><img src="/images/nar.jpg" alt=""></div>
+                    <h3>Наращивание ногтей</h3>
+                    <p>Моделирование формы на гелевой основе. Идеально для любой длины</p>
+                    <a href="price.html" class="service-card__link">Подробнее →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon"><img src="/images/diz.jpg" alt=""></div>
+                    <h3>Дизайн ногтей</h3>
+                    <p>Френч, стемпинг, слайдеры, втирка, стразы и авторская роспись</p>
+                    <a href="price.html" class="service-card__link">Подробнее →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Почему выбирают -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают меня</h2>
+            <div class="features__grid">
+                <div class="feature">
+                    <span class="feature__number">3+</span>
+                    <p>лет опыта</p>
+                </div>
+                <div class="feature">
+                    <span class="feature__number">Premium</span>
+                    <p>материалы</p>
+                </div>
+                <div class="feature">
+                    <span class="feature__number">100%</span>
+                    <p>стерильность</p>
+                </div>
+                <div class="feature">
+                    <span class="feature__number">Уникальный</span>
+                    <p>дизайн</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Уютное пространство -->
+<section class="space">
+    <div class="container">
+        <h2 class="section-title">Уютное пространство</h2>
+        <div class="space__grid">
+
+            <!-- Слайдер  -->
+            <div class="space-slider">
+                <a id="s0" href="#s0"></a>
+                <div>
+                    <div style="background-image: url('/images/workspace.jpg');"></div>
+                </div>
+                <a id="s1" href="#s1"></a>
+                <div>
+                    <div style="background-image: url('/images/zone.jpg');"></div>
+                </div>
+                <a id="s2" href="#s2"></a>
+                <div>
+                    <div style="background-image: url('/images/zone4.jpg');"></div>
+                </div>
+                <a id="s3" href="#s3"></a>
+                <div>
+                    <div style="background-image: url('/images/zone2.jpg');"></div>
+                </div>
+            </div>
+
+            <!-- Текст -->
+            <div class="abz">
+                <p>Во время маникюра вы сможете расположиться в <b>удобном кресле</b>, чтобы избежать напряжения.<br> В зоне ожидания доступны <b>бесплатный чай, кофе и вкусные угощения</b>☕🍪.<br> Для вашего удобства предусмотрен <b>бесплатный Wi-Fi</b>🛜 — можно поработать, посмотреть фильм или просто расслабиться.<br><br> <b>Забота о вашем комфорте</b> — одна из моих главных целей, чтобы процедура💅 стала приятным времяпрепровождением.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts">
+        <div class="bg">
+            <div class="container">
+                <h2>Контакты</h2>
+                <div class="contacts__grid">
+                    <div class="contacts__info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <p>г. Москва, ул. Новгородская, д.5</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📌</span>
+                            <p>+7 (900) 123-45-67</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div class="social-links">
+                                <a href="https://t.me/djanchik_nails" target="_blank">Telegram</a>
+                                <a href="https://vk.com/" target="_blank">VK</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">⏰</span>
+                            <p>Ежедневно с 10:00 до 20:00</p>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://yandex.ru/map-widget/v1/?ll=37.650180%2C55.807960&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxMjM5NTk0OTk1EkTQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0J3QvtCy0LPQvtGA0L7QtNGB0LrQsNGPINGD0LvQuNGG0LAsIDUiCg1dbhZCFV4UckI%3D&z=12" 
+                                width="500" height="350" style="border:0;" allowfullscreen="">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма записи -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="section-title">Записаться онлайн</h2>
+            <div class="booking__form-wrapper">
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="clientName">Ваше имя *</label>
+                        <input type="text" id="clientName" name="name" placeholder="Анна" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientPhone">Телефон *</label>
+                        <input type="tel" id="clientPhone" name="phone" placeholder="8 (800) 555-35-35" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceType">Выберите услугу *</label>
+                        <select id="serviceType" name="service" required>
+                            <option value="">-- Выберите услугу --</option>
+                            <option value="Маникюр с покрытием">Маникюр с покрытием</option>
+                            <option value="Наращивание ногтей">Наращивание ногтей</option>
+                            <option value="Дизайн ногтей">Дизайн ногтей</option>
+                            <option value="Снятие покрытия">Снятие покрытия</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingDate">Желаемая дата</label>
+                        <input type="date" id="bookingDate" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingTime">Желаемое время</label>
+                        <select id="bookingTime" name="time">
+                            <option value="">-- Выберите время --</option>
+                            <option value="10:00">10:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="19:00">19:00</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="bookingComment">Комментарий (пожелания)</label>
+                        <textarea id="bookingComment" name="comment" rows="3" placeholder="Например: французский маникюр, дизайн со стразами..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Записаться</button>
+                </form>
+                <div id="bookingSuccess" class="booking-success" style="display: none;">
+                    <p>✅ Спасибо! Сейчас откроется Telegram для подтверждения записи.</p>
+                    <p>Если этого не произошло, <a href="#" id="manualLink">нажмите здесь</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Kate Nails. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
